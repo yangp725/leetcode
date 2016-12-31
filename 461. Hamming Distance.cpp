@@ -3,8 +3,8 @@ using namespace std;
 
 class Solution {
 public:
-    // Return the number of onr-bits in the two's complement binary
     // https://tech.liuchao.me/2016/11/count-bits-of-integer/
+    // Return the number of onr-bits in the two's complement binary
     // 从二进制数的低位开始逐位遍历，判断最低位是否为1，并消除最低位
     int bitCount(unsigned int n) {
         int count = 0;
