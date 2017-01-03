@@ -6,7 +6,7 @@ public:
     // https://tech.liuchao.me/2016/11/count-bits-of-integer/
     // Return the number of onr-bits in the two's complement binary
     // 从二进制数的低位开始逐位遍历，判断最低位是否为1，并消除最低位
-    int bitCount(unsigned int n) {
+    int bitCount0(unsigned int n) {
         int count = 0;
         while (n) {
             count += n & 1;
@@ -23,7 +23,7 @@ public:
        bits
        (https://graphics.stanford.edu/~seander/bithacks.html)
     */
-    int bitCountS(unsigned int n) {
+    int bitCount(unsigned int n) {
         int count = 0;
         while (n) {
             n &= n - 1;
@@ -33,7 +33,7 @@ public:
     }
 
     int hammingDistance(int x, int y) {
-        return bitCountS(x ^ y);
+        return bitCount(x ^ y);
     }
 
 };
@@ -42,7 +42,7 @@ public:
 int main () {
     int n = 21;
     Solution sol;
+    cout << sol.bitCount0(n) << endl;
     cout << sol.bitCount(n) << endl;
-    cout << sol.bitCountS(n) << endl;
     return 0;
 }
