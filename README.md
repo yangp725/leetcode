@@ -4,3 +4,8 @@ bitCount, Brian Kernighan's way
 [419. Battleships in a Board.cpp](https://github.com/yangp725/leetcode/blob/master/419. Battleships in a Board.cpp)
 
 [338. Counting Bits.cpp](https://github.com/yangp725/leetcode/blob/master/338. Counting Bits.cpp)
+
+[412. Fizz Buzz.cpp](https://github.com/yangp725/leetcode/blob/master/412. Fizz Buzz.cpp)
+
+
+

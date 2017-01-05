@@ -29,7 +29,7 @@ ostream & operator<<(ostream &out, vector<int> v) {
     return out;
 }
 
-int main () {
+int main() {
     int n;
     while (cin >> n) {
         Solution sol;
