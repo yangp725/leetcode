@@ -24,4 +24,4 @@ bitCount, Brian Kernighan's way
 
 使用queue，从右向左逐层遍历
 
-[[513. Find Bottom Left Tree Value.cpp](https://github.com/yangp725/leetcode/blob/master/513.%20Find%20Bottom%20Left%20Tree%20Value.cpp)]
+[513. Find Bottom Left Tree Value.cpp](https://github.com/yangp725/leetcode/blob/master/513.%20Find%20Bottom%20Left%20Tree%20Value.cpp)
