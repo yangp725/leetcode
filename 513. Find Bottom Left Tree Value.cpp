@@ -16,7 +16,8 @@ struct TreeNode {
 class Solution {
 public:
     int findBottomLeftValue(TreeNode* root) {
-        queue<TreeNode*> que;
+        // http://en.cppreference.com/w/cpp/container/queue
+		queue<TreeNode*> que;
         que.push(root);
         
         int v;
